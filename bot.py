@@ -15,7 +15,7 @@ def start(bot, update):
 def MsgHandle(bot, update):
 	print("User :", update.message.text)
 
-	reply = "Maybe I'm running on a docker container inside an Operating System on a virtual machine inside Microsoft Azure Cloud inside another Virtual Environment on top a of a Hypervisor on some Operating System on a server infrastructure located somewhere around the world! Maybe... Just Maybe..."
+	reply = "Maybe, I'm running on a docker container inside an Operating System on a virtual machine inside Microsoft Azure Cloud inside another Virtual Environment on top a of a Hypervisor on some Operating System on a server infrastructure located somewhere around the world! Maybe... Just Maybe..."
 
 	print("BugBugger:", reply)
 	update.message.reply_text(reply)
